@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="container-page relative z-10 pb-24 pt-40">
         <span className="kicker mb-6">Zona Sul · São Paulo</span>
-        <h1 className="display text-[13vw] md:text-[6vw] leading-[0.95] max-w-4xl mt-6">
+        <h1 className="display text-[10vw] md:text-[4.5vw] leading-[0.95] max-w-4xl mt-6">
           Corte com tradição.
           <br />
           Atitude de quem já viu tudo.

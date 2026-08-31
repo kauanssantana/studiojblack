@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
+import About from "@/components/About";
+import Services from "@/components/Services";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
@@ -10,7 +12,9 @@ export default function Home() {
       <main>
         <Hero />
         <Marquee />
-        {/* Quem somos, Serviços, Galeria, Avaliações e Mapa entram na próxima etapa */}
+        <About />
+        <Services />
+        {/* Galeria, Avaliações e Mapa entram na próxima etapa */}
       </main>
       <WhatsAppButton />
     </>
