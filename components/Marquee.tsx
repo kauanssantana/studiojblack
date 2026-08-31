@@ -4,6 +4,11 @@ const items = [
   "Sobrancelha",
   "19 anos de tradição",
   "Zona Sul de São Paulo",
+  "Resiliência",
+  "Dedicação",
+  "Trabalho duro",
+  "Atendimento personalizado",
+  "Qualidade",
 ];
 
 export default function Marquee() {

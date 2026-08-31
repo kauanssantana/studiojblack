@@ -4,6 +4,9 @@ import Marquee from "@/components/Marquee";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
+import Testimonials from "@/components/Testimonials";
+import LocationMap from "@/components/LocationMap";
+import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
@@ -16,8 +19,10 @@ export default function Home() {
         <About />
         <Services />
         <Gallery />
-        {/* Avaliações e Mapa entram na próxima etapa */}
+        <Testimonials />
+        <LocationMap />
       </main>
+      <Footer />
       <WhatsAppButton />
     </>
   );
