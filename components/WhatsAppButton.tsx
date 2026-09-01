@@ -7,7 +7,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Agendar horário pelo WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-accent text-text px-5 py-4 shadow-lg hover:brightness-110 transition"
+      className="flex items-center gap-3 bg-accent text-text px-5 py-4 shadow-lg hover:brightness-110 transition"
     >
       <svg
         width="22"

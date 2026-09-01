@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonials";
 import LocationMap from "@/components/LocationMap";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -23,7 +24,10 @@ export default function Home() {
         <LocationMap />
       </main>
       <Footer />
-      <WhatsAppButton />
+      <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+        <BackToTop />
+        <WhatsAppButton />
+      </div>
     </>
   );
 }

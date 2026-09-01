@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Reveal from "./Reveal";
 import { services, whatsappLink } from "@/lib/data";
 
@@ -40,11 +41,15 @@ export default function Services() {
             </Reveal>
           </Reveal>
 
-          <Reveal delay={0.15} className="panel-media overflow-hidden">
-            <img
+          <Reveal
+            delay={0.15}
+            className="panel-media relative overflow-hidden h-[520px]"
+          >
+            <Image
               src="/imagens/corte-cabelo.jpg"
-              alt="Corte de cabelo no Studio J'Black"
-              className="media-img w-full h-[520px] object-cover"
+              alt="Interior do Studio J'Black Barbearia"
+              fill
+              className="media-img object-cover"
             />
           </Reveal>
         </div>

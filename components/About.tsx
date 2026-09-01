@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Reveal from "./Reveal";
 import { business } from "@/lib/data";
 
@@ -6,11 +7,12 @@ export default function About() {
     <section id="quem-somos" className="section">
       <div className="container-page">
         <div className="panel">
-          <Reveal className="panel-media overflow-hidden">
-            <img
+          <Reveal className="panel-media relative overflow-hidden h-[520px]">
+            <Image
               src="/imagens/josue.jpg"
               alt={`O barbeiro ${business.barber} atendendo no Studio J'Black`}
-              className="media-img w-full h-[520px] object-cover"
+              fill
+              className="media-img object-cover"
             />
           </Reveal>
           <Reveal delay={0.15} className="panel-text">

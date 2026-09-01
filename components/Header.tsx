@@ -13,16 +13,30 @@ const links = [
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 40);
+
+      const scrollTop = window.scrollY;
+      const docHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      setProgress(pct);
+    };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
     <>
-      <div className="brand-bar fixed top-0 left-0 right-0 z-50" />
+      <div className="fixed top-0 left-0 right-0 z-50 h-1 bg-[#0B0A09]">
+        <div
+          className="h-full bg-accent transition-[width] duration-150 ease-linear"
+          style={{ width: `${progress}%` }}
+        />
+      </div>
       <header
         className={`fixed top-1 left-0 right-0 z-40 transition-all duration-500 ${
           scrolled

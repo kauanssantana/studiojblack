@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Reveal from "./Reveal";
 import { business } from "@/lib/data";
 
@@ -10,7 +11,7 @@ const photos = [
   { src: "/imagens/galeria/corte-3.jpg", alt: "Corte natural com taper fade" },
   {
     src: "/imagens/galeria/corte-4.jpg",
-    alt: "Penteado para trás com barba cheiao",
+    alt: "Penteado para trás com barba cheia",
   },
   {
     src: "/imagens/galeria/corte-5.jpg",
@@ -41,11 +42,12 @@ export default function Gallery() {
       <div className="gallery-track-wrap">
         <div className="gallery-track">
           {doubled.map((photo, i) => (
-            <div key={i} className="gallery-item">
-              <img
+            <div key={i} className="gallery-item relative">
+              <Image
                 src={photo.src}
                 alt={photo.alt}
-                className="media-img w-full h-full object-cover"
+                fill
+                className="media-img object-cover"
               />
             </div>
           ))}
