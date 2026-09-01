@@ -33,23 +33,23 @@ export const services = [
 
 export const testimonials = [
   {
-    text: "Tem bons anos que meu filho e eu cortamos o cabelo no Josué. Pra corte infantil, não tem barbeiro melhor. Fecho os olhos e fico tranquilo com o corte perfeito do meu filho e do meu. Local calmo, ambiente familiar, diferente de barbearias masculinas por aí. Lá no STUDIO J'BLACK, é garantia de satisfação e vontade de chegar o dia do próximo corte. Cortávamos o cabelo lá antes de ir morar em Portugal, e voltamos para o Brasil, e voltamos a cortar com o Josué. Recomendo muito. Abraço e até o próximo corte. Vai aí uma fotografia do meu miúdo e minha.",
-    source: "Avaliação no Google",
+    text: "Tem bons anos que meu filho e eu cortamos o cabelo no Josué. Pra corte infantil, não tem barbeiro melhor. Fecho os olhos e fico tranquilo com o corte perfeito do meu filho e do meu. Local calmo, ambiente familiar, diferente de barbearias masculinas por aí. Lá no STUDIO J'BLACK, é garantia de satisfação e vontade de chegar o dia do próximo corte. Cortávamos o cabelo lá antes de ir morar em Portugal, e voltamos para o Brasil, e voltamos a cortar com o Josué. Recomendo muito.",
+    author: "Adriano Portugal",
   },
   {
     text: "Excelentes profissionais e um ótimo atendimento, ambiente limpo e agradável super recomendado parabens",
-    source: "Avaliação no Google",
+    author: "Binho Lima",
   },
   {
-    text: "Profissional excelente , muito experiente e sem contar a simpatia .Recomendo a todos de olhos fechados . Deus abençoe sempre",
-    source: "Avaliação no Google",
+    text: "Profissional excelente, muito experiente e sem contar a simpatia. Recomendo a todos de olhos fechados. Deus abençoe sempre",
+    author: "Filipe Douglas B. de Carvalho",
   },
   {
     text: "Ambiente muito agradável. Profissional de muita qualidade, acertou no corte do jeito que eu queria! Vou voltar sempre.",
-    source: "Avaliação no Google",
+    author: "Rodolfo Luiz",
   },
   {
-    text: "Ótimo local, já sou cliente mais de 5 anos .Josué super profissional, ambiente familiar",
-    source: "Avaliação no Google",
+    text: "Ótimo local, já sou cliente mais de 5 anos. Josué super profissional, ambiente familiar",
+    author: "Luciano Lima",
   },
 ];

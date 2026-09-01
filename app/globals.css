@@ -198,6 +198,7 @@ body {
 }
 .testimonial-track {
   display: flex;
+  align-items: flex-start;
   width: max-content;
   animation: marquee-scroll 55s linear infinite;
 }
@@ -205,7 +206,7 @@ body {
   animation-play-state: paused;
 }
 .testimonial-card {
-  width: 360px;
+  width: 400px;
   flex-shrink: 0;
   padding: 32px;
   margin-right: 24px;

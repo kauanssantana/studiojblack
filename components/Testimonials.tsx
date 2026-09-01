@@ -31,9 +31,17 @@ export default function Testimonials() {
         <div className="testimonial-track">
           {doubled.map((item, i) => (
             <div key={i} className="testimonial-card">
-              <p className="leading-relaxed mb-4">&ldquo;{item.text}&rdquo;</p>
-              <span className="text-muted text-sm uppercase tracking-[0.1em]">
-                {item.source}
+              <span className="text-accent display text-4xl leading-none">
+                &ldquo;
+              </span>
+              <div className="text-accent text-sm tracking-widest my-4">
+                ★★★★★
+              </div>
+              <p className="leading-relaxed mb-6 text-sm text-muted">
+                {item.text}
+              </p>
+              <span className="display text-sm tracking-wide">
+                {item.author}
               </span>
             </div>
           ))}
