@@ -37,7 +37,7 @@ export default function Testimonials() {
               <div className="text-accent text-sm tracking-widest my-4">
                 ★★★★★
               </div>
-              <p className="leading-relaxed mb-6 text-sm text-muted">
+              <p className="leading-relaxed mb-6 text-base text-text/90">
                 {item.text}
               </p>
               <span className="display text-sm tracking-wide">

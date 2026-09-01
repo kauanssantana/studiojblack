@@ -28,8 +28,7 @@ export default function About() {
             </p>
             <p className="text-muted">
               Aqui o corte é feito com calma, no tempo certo, sem pressa pra
-              sair rápido — do jeito que uma barbearia de bairro de verdade
-              deveria ser.
+              sair rápido — mas sempre mantendo o grau da excelência.
             </p>
           </Reveal>
         </div>

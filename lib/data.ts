@@ -14,6 +14,8 @@ export const business = {
   reviewCount: 75,
 };
 
+export const payments = ["Débito", "Crédito", "Pix", "Dinheiro"];
+
 export const whatsappLink = `https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(
   business.whatsappMessage,
 )}`;
@@ -29,8 +31,10 @@ export const services = [
   { name: "Corte normal", price: 45 },
   { name: "Sobrancelha", price: 15 },
   { name: "Barba desenhada", price: 30 },
+  { name: "Pezinho", price: 20 },
 ];
 
+export const products = [{ name: "Pomada Fox Premium", price: 20 }];
 export const testimonials = [
   {
     text: "Tem bons anos que meu filho e eu cortamos o cabelo no Josué. Pra corte infantil, não tem barbeiro melhor. Fecho os olhos e fico tranquilo com o corte perfeito do meu filho e do meu. Local calmo, ambiente familiar, diferente de barbearias masculinas por aí. Lá no STUDIO J'BLACK, é garantia de satisfação e vontade de chegar o dia do próximo corte. Cortávamos o cabelo lá antes de ir morar em Portugal, e voltamos para o Brasil, e voltamos a cortar com o Josué. Recomendo muito.",
