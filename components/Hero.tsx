@@ -24,8 +24,7 @@ export default function Hero() {
         </h1>
         <p className="mt-8 max-w-md text-muted">
           {business.yearsInMarket} anos cuidando do estilo da Zona Sul. Corte,
-          barba e sobrancelha com o barbeiro {business.barber}, no Jardim
-          Guanhembu.
+          barba e sobrancelha,no Jardim Guanhembu.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-8">

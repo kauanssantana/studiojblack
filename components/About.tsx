@@ -23,8 +23,8 @@ export default function About() {
             <p className="text-muted mb-4">
               O Studio J&apos;Black nasceu no Jardim Guanhembu e virou
               referência de bairro na Zona Sul de São Paulo. À frente da tesoura
-              está {business.barber}, formado em curso prático de barbearia, com
-              quase duas décadas cortando o cabelo da vizinhança.
+              está {business.barber}, formado e ministra curso prático de
+              barbearia, com quase duas décadas cortando o cabelo da vizinhança.
             </p>
             <p className="text-muted">
               Aqui o corte é feito com calma, no tempo certo, sem pressa pra
