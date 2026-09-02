@@ -2,7 +2,7 @@
 
 Site em página única (landing page) do Studio J'Black Barbearia, barbearia de bairro na Zona Sul de São Paulo. Objetivo: apresentar o negócio e direcionar o cliente para agendamento via WhatsApp.
 
-🔗 **Site no ar:** _(adicionar link após o deploy)_
+🔗 **Site no ar:** _(https://studiojblack.vercel.app)_
 
 ## Tecnologias
 
