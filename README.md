@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Studio J'Black Barbearia — Site institucional
 
-## Getting Started
+Site em página única (landing page) do Studio J'Black Barbearia, barbearia de bairro na Zona Sul de São Paulo. Objetivo: apresentar o negócio e direcionar o cliente para agendamento via WhatsApp.
 
-First, run the development server:
+🔗 **Site no ar:** _(adicionar link após o deploy)_
+
+## Tecnologias
+
+- [Next.js 16](https://nextjs.org) (App Router)
+- [React](https://react.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS v4](https://tailwindcss.com)
+- Hospedagem: [Vercel](https://vercel.com)
+
+## Como rodar localmente
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura do projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Editando o conteúdo
 
-## Learn More
+A maior parte das informações do site (telefone, endereço, horários, preços de serviços e produtos, avaliações) fica centralizada em **`lib/data.ts`**. Para atualizar preços ou horários, basta editar os valores desse arquivo — não é necessário mexer nos componentes visuais.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto está conectado à Vercel e cada push na branch `main` gera um novo deploy automaticamente.
