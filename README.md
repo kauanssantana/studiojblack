@@ -23,6 +23,16 @@ Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
 ## Estrutura do projeto
 
+app/
+layout.tsx → fontes, título e metadados do site
+page.tsx → monta as seções da página na ordem em que aparecem
+globals.css → cores, tipografia e estilos globais (design system)
+components/ → um componente por seção (Hero, About, Services, Gallery, Testimonials, LocationMap, Footer, etc.)
+lib/
+data.ts → todas as informações do negócio (nome, telefone, endereço, horários, preços, avaliações) — editar aqui para atualizar conteúdo sem mexer no design
+public/
+imagens/ → fotos usadas no site (fachada, cortes, produtos, logo)
+
 ## Editando o conteúdo
 
 A maior parte das informações do site (telefone, endereço, horários, preços de serviços e produtos, avaliações) fica centralizada em **`lib/data.ts`**. Para atualizar preços ou horários, basta editar os valores desse arquivo — não é necessário mexer nos componentes visuais.
