@@ -241,3 +241,47 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+/* =========================================
+   COMPORTAMENTO HÍBRIDO (MOBILE: ARRASTE | DESKTOP: AUTOMÁTICO)
+   ========================================= */
+@media (max-width: 768px) {
+  /* 1. Ativa a rolagem por toque (swipe) e oculta a barra cinza */
+  .gallery-track-wrap,
+  .testimonial-track-wrap {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .gallery-track-wrap::-webkit-scrollbar,
+  .testimonial-track-wrap::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* 2. Desliga a animação contínua infinita no celular */
+  .gallery-track,
+  .testimonial-track {
+    animation: none;
+  }
+
+  /* 3. Força a parada do arrasto perfeitamente no centro (efeito Instagram) */
+  .gallery-item,
+  .testimonial-card {
+    scroll-snap-align: center;
+  }
+
+  /* 4. Ajustes finos de escala para a tela menor */
+  .testimonial-card {
+    width: 85vw;
+    padding: 24px;
+    margin-right: 16px;
+  }
+
+  .gallery-item {
+    width: 280px;
+    height: 340px;
+  }
+}
